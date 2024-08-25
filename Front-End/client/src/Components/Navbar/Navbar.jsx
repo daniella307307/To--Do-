@@ -9,7 +9,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import Avatar from '../assates/image.png';
+import girl from '../assates/girl.jpg';
 
 function Navbar() {
   return (
@@ -53,7 +53,7 @@ function Navbar() {
         <div className="flex items-center space-x-6">
           <div className="flex items-center space-x-4">
             <img
-              src={Avatar}
+              src={girl}
               alt="Profile avatar of Kim So Min"
               className="h-12 rounded-full border-black border-[2px]"
             />

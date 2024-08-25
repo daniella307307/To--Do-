@@ -26,31 +26,31 @@ function Menu() {
           <FontAwesomeIcon icon={faChevronUp} />
         </div>
         <div>
-          <ul className="mt-6 space-y-4 text-gray-400 text-xl">
-            <li className="flex flex-wrap items-center justify-between">
+          <ul className="mt-6 space-y-4 text-gray-400 text-xl ">
+            <li className="flex flex-wrap items-center justify-between bg-black text-white p-2 rounded-lg transition duration-300 ease-in-out">
               <span >
                 <FontAwesomeIcon icon={faHome} className="mr-2 text-lg"/>DashBoard
               </span>
               <FontAwesomeIcon icon={faArrowAltCircleDown} className="text-lg" />
             </li>
-            <li  className="flex flex-wrap items-center justify-between">
+            <li  className="flex flex-wrap items-center justify-between hover:bg-black hover:text-white hover:p-2 hover:rounded-lg transition duration-300 ease-in-out">
             <span>
                 <FontAwesomeIcon icon={faEnvelope} className="mr-2 text-lg"/>Message
               </span>
             </li>
-            <li  className="flex flex-wrap items-center justify-between">
+            <li  className="flex flex-wrap items-center justify-between hover:bg-black hover:text-white hover:p-2 hover:rounded-lg transition duration-300 ease-in-out">
             <span>
                 <FontAwesomeIcon icon={faTasks} className="mr-2 text-lg"/>My Tasks
               </span>
               <FontAwesomeIcon icon={faArrowAltCircleDown} className="text-lg" />
             </li>
-            <li  className="flex flex-wrap items-center justify-between">
+            <li  className="flex flex-wrap items-center justify-between hover:bg-black hover:text-white hover:p-2 hover:rounded-lg transition duration-300 ease-in-out">
               <span> 
               <FontAwesomeIcon icon={faUsers} className="mr-2 text-lg"/>
                 Friends</span>
               <FontAwesomeIcon icon={faArrowAltCircleDown} />
             </li>
-            <li  className="flex flex-wrap items-center">
+            <li  className="flex flex-wrap items-center hover:bg-black hover:text-white hover:p-2 hover:rounded-lg transition duration-300 ease-in-out">
               <FontAwesomeIcon icon={faCalendar} className="mr-2 text-lg" />
               <span> Calendar</span>
             </li>
