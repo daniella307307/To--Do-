@@ -1,6 +1,6 @@
 import "./App.css";
-import Navbar from './Components/Navbar/Navbar'
-import Body from "./Components/Sidebar/Body";
+import Body from "./Components/Middle/Body";
+import Navbar from "./Components/Navbar/Navbar";
 import LeftSidebar from "./Components/Sidebar/LeftSidebar";
 import Sidebar from "./Components/Sidebar/Sidebar";
 
